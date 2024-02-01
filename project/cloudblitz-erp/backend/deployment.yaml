@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: onkarveer/backend:1
+          image: onkarveer/back:v1
           ports:
             - containerPort: 8080
   replicas: 3
